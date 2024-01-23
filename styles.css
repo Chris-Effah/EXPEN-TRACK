@@ -6,7 +6,7 @@ body {
 
 .cover-image {
   width: 10%; /* Make the image fill the entire width of its container */
-  height: 300px; /* Set the desired height for the cover image */
+  max-height: 300px; /* Set the desired height for the cover image */
   object-fit: scale-down; /* Maintain aspect ratio and cover the entire container */
 }
 
