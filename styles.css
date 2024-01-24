@@ -4,9 +4,14 @@ body {
   padding: 0;
 }
 
+.cover-image {
+  max-width: 70%; /* Make the image fill the entire width of its container */
+  max-height: 300px; /* Set the desired height for the cover image */
+}
+
 .cover-image img {
   width: auto;
-  height: 50%; /* Ensure the image takes the full height of the container */
+  height: 100%; /* Ensure the image takes the full height of the container */
   object-fit: cover;
 }
 
