@@ -12,7 +12,7 @@ body {
 
 .cover-image img {
   width: auto;
-  height: 100%; /* Ensure the image takes the full height of the container */
+  height: 70%; /* Ensure the image takes the full height of the container */
   object-fit: cover;
 }
 
