@@ -4,12 +4,6 @@ body {
   padding: 0;
 }
 
-.cover-image {
-  max-width: 50%; /* Make the image fill the entire width of its container */
-  max-height: 50px; /* Set the desired height for the cover image */
-  overflow: hidden; /* Maintain aspect ratio and cover the entire container */
-}
-
 .cover-image img {
   width: auto;
   height: 50%; /* Ensure the image takes the full height of the container */
