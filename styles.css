@@ -5,14 +5,14 @@ body {
 }
 
 .cover-image {
-  max-width: 70%; /* Make the image fill the entire width of its container */
-  max-height: 100px; /* Set the desired height for the cover image */
+  max-width: 50%; /* Make the image fill the entire width of its container */
+  max-height: 50px; /* Set the desired height for the cover image */
   overflow: hidden; /* Maintain aspect ratio and cover the entire container */
 }
 
 .cover-image img {
   width: auto;
-  height: 70%; /* Ensure the image takes the full height of the container */
+  height: 50%; /* Ensure the image takes the full height of the container */
   object-fit: cover;
 }
 
