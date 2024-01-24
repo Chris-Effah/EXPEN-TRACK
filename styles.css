@@ -5,8 +5,8 @@ body {
 }
 
 .cover-image {
-  max-width: 100%; /* Make the image fill the entire width of its container */
-  max-height: 300px; /* Set the desired height for the cover image */
+  max-width: 70%; /* Make the image fill the entire width of its container */
+  max-height: 100px; /* Set the desired height for the cover image */
   overflow: hidden; /* Maintain aspect ratio and cover the entire container */
 }
 
