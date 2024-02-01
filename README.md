@@ -1,4 +1,14 @@
-# EXPEN-TRACK
+#Project Name: EXPEN-TRACK
+
+Deployed site: https://chris-effah.github.io/EXPEN-TRACK/
+
+Blog Post: https://medium.com/@williamsnanaaba/expense-tracker-4a43048c79f7/
+
+AUTHORS
+1. CHRISTIANA ANIM-BOATENG <akboateng41@gmail.com>
+2. ELIZABETH WILLIAMS <williamsnanaaba@gmail.com>
+
+
 THIS REPOSITORY CONTAINS CODES FOR A SOFTWARE CREATED BY CHRISTIANA ANIM-BOATENG AND ELIZABETH WILLIAMS THAT TRACKS EXPENSES OF THE USER
 
 The Expense Tracker Portfolio Project aims to address the challenge of efficiently managing personal or business expenses. It intends to provide users with a platform to easily record, categorize, analyze, and visualize their spending habits. By doing so, it assists in creating a comprehensive overview of finances, aiding in budgeting, identifying spending patterns, and making informed financial decisions.
