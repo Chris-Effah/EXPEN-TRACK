@@ -1,0 +1,132 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    padding: 2rem;
+    background-color: rgb(228, 239, 247);
+    color: var(--text-color);
+    margin: 0
+}
+
+.cover-image {
+    background: url('cover-image.png') center/cover;
+    padding: 100px 30px;
+}
+
+.logo img{
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.top-right {
+    display: flex;
+    align-items: center;
+}
+ 
+h1, h2 {
+    text-align: center;
+}
+  
+.input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+  
+.input-section label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+  
+.input-section input[type="number"], .input-section input[type="date"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+  
+.input-section button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.expenses-list {
+    margin: 20px;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+  
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+  
+tfoot td {
+    font-weight: bold;
+}
+  
+.delete-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    z-index: 2;
+    display: none;
+}
+
+.popup {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 60%;
+    max-height: 120%;
+    background: #808080;
+    z-index: 1000;
+}
+
+.popup-content {
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.popup img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.popup {
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+.banner,
+.closing-banner {
+    background-color: #70e6b8;
+    padding: 10px;
+}
