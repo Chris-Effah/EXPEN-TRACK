@@ -7,7 +7,7 @@ body {
 }
 
 .cover-image {
-    background: url('cover-image.png') center/cover;
+    background: url('images/cover-image.png') center/cover;
     padding: 100px 30px;
 }
 
